@@ -5,18 +5,18 @@ AI Subtitle Generator is a powerful and scalable Kotlin-based tool that leverage
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🎙️ **Offline Speech Recognition** powered by Vosk
--  ⚡  **Multithreaded Audio Processing** for high performance
-- 🧠 **Intelligent Audio Chunking** for accurate transcription
-- 🎯 **SRT Subtitle Generation** with precise timestamps
-- ✅ **Robust Audio Validation** and error handling
-- 🧪 **Unit tested** with JUnit and Mockito
+- **Offline Speech Recognition** powered by Vosk
+- **Multithreaded Audio Processing** for high performance
+- **Intelligent Audio Chunking** for accurate transcription
+- **SRT Subtitle Generation** with precise timestamps
+- **Robust Audio Validation** and error handling
+- **Unit tested** with JUnit and Mockito
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Kotlin** (JVM 21)
 - **Vosk API** for speech recognition
@@ -25,7 +25,7 @@ AI Subtitle Generator is a powerful and scalable Kotlin-based tool that leverage
 
 ---
 
-## 📦 Installation
+## Installation
 
 Clone the repository:
 
@@ -35,11 +35,11 @@ cd srt-extractor
 ./gradlew build
 ```
 
-## 🔧 Configuration
+## Configuration
 
 Ensure you have a Vosk model downloaded and placed in an accessible directory. You can download pre-trained models from Vosk Models.
 
-## 🧑‍💻 Usage
+## Usage
 
 #### Extract Subtitles from Audio File
 
@@ -57,7 +57,7 @@ fun main() {
 ```
 
 
-## 📝 Subtitle Format Example
+## Subtitle Format Example
 
 ```dbn-psql
 1
@@ -73,7 +73,7 @@ fun main() {
 哇
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```dbn-psql
 src/
@@ -91,7 +91,7 @@ src/
           └── AudioValidatorTest.kt
 ```
 
-## ⚠️ Requirements
+## Requirements
 - JDK 21
 - WAV audio files (PCM format, 16-bit, mono)
 - Pre-trained Vosk model
