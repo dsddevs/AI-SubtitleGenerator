@@ -96,5 +96,5 @@ src/
 - WAV audio files (PCM format, 16-bit, mono)
 - Pre-trained Vosk model
 
-## 📄 License
+## License
 This project is licensed under the Apache-2.0 license 
