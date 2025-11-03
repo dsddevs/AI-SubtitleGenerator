@@ -1,6 +1,7 @@
-# 🎧 SRT Extractor – High-Performance Audio-to-Subtitle Generator
+# 🎧 AI Subtitle Generator
+ – High-Performance Audio-to-Subtitle Generator
 
-SRT Extractor is a powerful and scalable Kotlin-based tool that leverages [Vosk](https://alphacephei.com/vosk/) for offline speech recognition to convert audio files into `.srt` subtitle files. Designed with performance and accuracy in mind, it utilizes multithreading to handle large audio files efficiently.
+AI Subtitle Generator is a powerful and scalable Kotlin-based tool that leverages [Vosk](https://alphacephei.com/vosk/) for offline speech recognition to convert audio files into `.srt` subtitle files. Designed with performance and accuracy in mind, it utilizes multithreading to handle large audio files efficiently.
 
 ---
 
